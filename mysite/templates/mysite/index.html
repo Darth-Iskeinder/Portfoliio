@@ -1,0 +1,35 @@
+{% extends 'mysite/base.html' %}
+
+{% block content %}
+    <div class="container" style="margin-top: 100px">
+        <div class="row">
+            <div class="col-sm-6">
+                <form class="form-inline">
+                    <label class="sr-only" for="inlineFormInputName2">First_name</label>
+                    <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2"
+                           placeholder="First_name">
+
+                    <label class="sr-only" for="inlineFormInputName2">Last_name</label>
+                    <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2"
+                           placeholder="Last_name">
+
+                    <button type="submit" class="btn btn-secondary mb-2">Tell me joke</button>
+                </form>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card" style="width: 40rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Jim Kerry</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="card-link">Check out my portfolio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+{% endblock %}
